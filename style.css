@@ -1,0 +1,94 @@
+body {
+    margin: 0;
+    padding: 0;
+    background-color: #FDF3F0; 
+    font-family: 'Alex Brush', cursive;
+    color: #4B2E2A; 
+    text-align: center;
+}
+
+.container {
+    max-width: 342px;
+    height: 95vh;
+    margin: 0 auto;
+}
+
+.logo {
+    width: 100px;
+    height: 100px;
+    border-radius: 50%;
+    margin: 24px 0 auto;
+}
+
+h1 {
+    font-size: 32px;
+    margin: 3px 0 0;
+    font-weight: bold;
+}
+
+p {
+    font-size: 16px;
+    margin: 0 0 43px;
+    font-family: 'Montserrat', sans-serif;
+    color: #7D5A50;
+}
+.button:hover {
+    background-color: #9E7A66;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.2);
+    
+}
+
+.button {
+    position: relative;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-color: #C9A28D;
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 16px;
+    font-weight: normal;
+    color: #FDF3F0;
+
+    padding: 14px 24px; 
+    margin: 16px 0;
+    border: none;
+    border-radius: 24px;
+    text-decoration: none;
+    box-shadow: 0 2px 5px rgba(0, 0, 0, 0.1);
+    transition: background-color 0.3s, box-shadow 0.3s;
+}
+
+.icon {
+    position: absolute; 
+    left: 14px; 
+    top: 50%; 
+    transform: translateY(-50%); 
+    width: 27px;
+    height: 27px;
+    font-size: 27px;
+    color: #FDF3F0;
+}
+
+.icon img {
+    max-width: 27px;
+    max-height: 27px;
+}
+
+#ifood {
+    margin-bottom: 3px;
+}
+
+.button span.text {
+    flex: 1; 
+    text-align: center; 
+}
+
+.footer {
+    margin-top: 10px;
+    height: 3vh;
+
+    font-family: 'Rubik', sans-serif;
+    font-size: 12px;
+    color: #7D5A50;
+}
