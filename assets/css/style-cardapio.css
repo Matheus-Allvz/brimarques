@@ -19,7 +19,7 @@
   .accordion .content {
     height: 0px;
     padding: 0px;
-    background-color: #fafafa;
+    background-color: #f7eae4;
     border-top: 1px solid #ccc;
     overflow: hidden;
     transition: all 0.3s ease;
@@ -41,7 +41,7 @@
     justify-content: space-between;
     align-items: center;
     padding: 8px;
-    background-color: #f1f1f1;
+    background-color: #ffdfcd;
     cursor: pointer;
     font-weight: bold;
     text-align: left;
@@ -89,7 +89,6 @@ body {
   display: flex;        
   justify-content: center; 
   align-items: center;    
-  border: 2px solid #ccc;  
   border-radius: 10px;
   margin: 0;
   padding: 0;
@@ -102,42 +101,62 @@ body {
 }
 
 .item-text-content {
+  display: flex;
+  flex-direction: column;
   width: 215px;
   padding: 0;
   margin: 0;
 }
 
 .item-title {
-  font-family: "Poppins", serif;
+  color: #4A4A4A;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 20px;
   text-align: left;
   
   margin: 0;
-  margin: 8px 0 0 5px;
+  margin: 8px 0 0 6px;
 }
 
 .item-value {
-  font-family: "Poppins", serif;
+  color: #555555;
+  font-family: "Poppins", sans-serif;
   font-weight: bold;
   font-size: 14px;
   text-align: left;
   
   margin: 0;
-  margin-left: 3px;
+  margin-left: 5px;
 }
 
 .item-desc {
+  color: #6C6C6C;
 
   width: 100%;
 
-  font-family: "Roboto", serif;
+  font-family: "Roboto", sans-serif;
   font-weight: bold;
   font-size: 12px;
   text-align: left;
   
-  margin: 0;
+  
   margin-left: 5px;
-  margin-top: 12px;
+  
 
+}
+
+
+
+
+
+
+
+.footer {
+  margin-top: 10px;
+  height: 3vh;
+
+  font-family: 'Rubik', sans-serif;
+  font-size: 12px;
+  color: #7D5A50;
 }

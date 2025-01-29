@@ -1,133 +1,178 @@
 <!DOCTYPE html>
 <html lang="pt=br">
 <head>
-    <meta charset="UTF-8">
-    <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>BriMarques - Cardápio</title>
 
-    <link rel="stylesheet" href="style-cardapio.css">
-    <link rel="icon" href="./imagens/favicon.png" type="image/x-icon">
-    
-    <link rel="preconnect" href="https://fonts.googleapis.com">
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
-    <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:ital,wght@0,100..900;1,100..900&family=Poppins:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&family=Roboto+Condensed:ital,wght@0,100..900;1,100..900&family=Roboto:ital,wght@0,100..900;1,100..900&family=Rubik:ital,wght@0,300..900;1,300..900&display=swap" rel="stylesheet">
+  <!-- Configurações básicas -->
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Confira o cardápio da BriMarques, com deliciosas opções feitas especialmente para você!">
+  <meta name="author" content="BriMarques">
+  <meta name="keywords" content="cardápio, BriMarques, comida, restaurante, menu">
+
+  <!-- Título da Página -->
+  <title>BriMarques - Cardápio</title>
+
+  <!-- Favicon -->
+  <link rel="icon" href="./assets/img/favicon.png" type="image/png">
+
+  <!-- Estilos CSS -->
+  <link rel="stylesheet" href="./assets/css/style-cardapio.css">
+
+  <!-- Preconexão para carregamento mais rápido das fontes -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+
+  <!-- Pré-carregamento da fonte principal (ajuste se necessário) -->
+  <link rel="preload" href="https://fonts.googleapis.com/css2?family=Montserrat:wght@100..900&display=swap" as="style">
+
+  <!-- Google Fonts -->
+  <link href="https://fonts.googleapis.com/css2?family=Alex+Brush&family=Montserrat:wght@100..900&family=Poppins:wght@100..900&family=Roboto+Condensed:wght@100..900&family=Roboto:wght@100..900&family=Rubik:wght@300..900&display=swap" rel="stylesheet">
+
     
 </head>
 <body>
 
-    <h1 id="title-h1">Brimarques</h1>
-    <p id="title-p">Doceria</p>
+  <h1 id="title-h1">Brimarques</h1>
+  <p id="title-p">Doceria</p>
 
-    <div class="accordion">
-        
-        <div class="accordion-item">
-          <input type="radio" id="section1" name="accordion" />
-          <label for="section1" class="accordion-header">
-            <label class="accordion-title">Bolos</label>
-            <div class="accordion-icon">
-              <svg
-                viewBox="0 0 16 16"
-                fill="none"
-                height="16"
-                width="16"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M4.293 5.293a1 1 0 0 1 1.414 0L8 7.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-3 3a1 1 0 0 1-1.414 0l-3-3a1 1 0 0 1 0-1.414z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-          </label>
-
-          <div class="content">
-
-            <div class="item-div">
-                <div class="item-img-container">
-                    <img src="./imagens/produtos/bolo-medio.jpg" alt="item-img" class="item-img">
-                </div>
-                <div class="item-text-content">
-                    <h5 class="item-title">Bolo Médio</h5>
-                    <p class="item-value">35,00R$</p>
-                    <p class="item-desc">Delicioso bolo com massa macia, recheio doce e cobertura de chantilly com caramelo e açucar mascavo.</p>
-                </div>
-            </div>
-            <hr>
-
-            <div class="item-div">
-                <div class="item-img-container">
-                    <img src="./imagens/produtos/bolo-de-cenoura.jpg" alt="item-img" class="item-img">
-                </div>
-                <div class="item-text-content">
-                    <h5 class="item-title">Bolo de Cenoura</h5>
-                    <p class="item-value">35,00R$</p>
-                    <p class="item-desc">Delicioso bolo com massa macia e cobertura de chantilly.</p>
-                </div>
-            </div>
-            <hr>
-
-            <div class="item-div">
-                <div class="item-img-container">
-                    <img src="./imagens/produtos/bolo-no-pote.jpg" alt="item-img" class="item-img">
-                </div>
-                <div class="item-text-content">
-                    <h5 class="item-title">Bolo no Pote</h5>
-                    <p class="item-value">35,00R$</p>
-                    <p class="item-desc">Delicioso bolo com massa macia e cobertura de chantilly.</p>
-                </div>
-            </div>
-            
-
-          </div>
-
-        </div>
-        <div class="accordion-item">
-          <input type="radio" id="section2" name="accordion" />
-          <label for="section2" class="accordion-header">
-            <label class="accordion-title">Doces</label>
-            <div class="accordion-icon">
-              <svg
-                viewBox="0 0 16 16"
-                fill="none"
-                height="16"
-                width="16"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M4.293 5.293a1 1 0 0 1 1.414 0L8 7.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-3 3a1 1 0 0 1-1.414 0l-3-3a1 1 0 0 1 0-1.414z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-          </label>
-          <div class="content">
-            <p>As coisas vão vir aqui</p>
-          </div>
-        </div>
-        <div class="accordion-item">
-          <input type="radio" id="section3" name="accordion" />
-          <label for="section3" class="accordion-header">
-            <label class="accordion-title">Kits de Festa</label>
-            <div class="accordion-icon">
-              <svg
-                viewBox="0 0 16 16"
-                fill="none"
-                height="16"
-                width="16"
-                xmlns="http://www.w3.org/2000/svg"
-              >
-                <path
-                  d="M4.293 5.293a1 1 0 0 1 1.414 0L8 7.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-3 3a1 1 0 0 1-1.414 0l-3-3a1 1 0 0 1 0-1.414z"
-                  fill="currentColor"
-                ></path>
-              </svg>
-            </div>
-          </label>
-          <div class="content">
-            <p>As coisas vão vir aqui</p>
-          </div>
-        </div>
-      </div>
+  <div class="accordion">
       
+    <div class="accordion-item">
+      <input type="radio" id="section1" name="accordion" />
+      <label for="section1" class="accordion-header">
+        <label class="accordion-title">Bolos</label>
+        <div class="accordion-icon">
+          <svg
+            viewBox="0 0 16 16"
+            fill="none"
+            height="16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.293 5.293a1 1 0 0 1 1.414 0L8 7.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-3 3a1 1 0 0 1-1.414 0l-3-3a1 1 0 0 1 0-1.414z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </div>
+      </label>
+
+      <div class="content">
+
+        <div class="item-div">
+            <div class="item-img-container">
+                <img src="/assets/img/produtos/bolo-medio.jpg" alt="item-img" class="item-img">
+            </div>
+            <div class="item-text-content">
+                <h5 class="item-title">Bolo Médio</h5>
+                <p class="item-value">35,00R$</p>
+                <p class="item-desc">Delicioso bolo com massa macia, recheio doce e cobertura de chantilly com caramelo e açucar mascavo.</p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="item-div">
+            <div class="item-img-container">
+                <img src="/assets/img/produtos/bolo-de-cenoura.jpg" alt="item-img" class="item-img">
+            </div>
+            <div class="item-text-content">
+                <h5 class="item-title">Bolo de Cenoura</h5>
+                <p class="item-value">35,00R$</p>
+                <p class="item-desc">Delicioso bolo com massa macia e cobertura de chantilly.</p>
+            </div>
+        </div>
+        <hr>
+
+        <div class="item-div">
+          <div class="item-img-container">
+              <img src="/assets/img/produtos/bolo-medio.jpg" alt="item-img" class="item-img">
+          </div>
+          <div class="item-text-content">
+              <h5 class="item-title">Bolo Médio</h5>
+              <p class="item-value">35,00R$</p>
+              <p class="item-desc">Delicioso bolo com massa macia, recheio doce e cobertura de chantilly com caramelo e açucar mascavo.</p>
+          </div>
+      </div>
+      <hr>
+
+      <div class="item-div">
+          <div class="item-img-container">
+              <img src="/assets/img/produtos/bolo-de-cenoura.jpg" alt="item-img" class="item-img">
+          </div>
+          <div class="item-text-content">
+              <h5 class="item-title">Bolo de Cenoura</h5>
+              <p class="item-value">35,00R$</p>
+              <p class="item-desc">Delicioso bolo com massa macia e cobertura de chantilly.</p>
+          </div>
+      </div>
+      <hr>
+
+        <div class="item-div">
+            <div class="item-img-container">
+                <img src="/assets/img/produtos/bolo-no-pote.jpg" alt="item-img" class="item-img">
+            </div>
+            <div class="item-text-content">
+                <h5 class="item-title">Bolo no Pote</h5>
+                <p class="item-value">35,00R$</p>
+                <p class="item-desc">Delicioso bolo com massa macia e cobertura de chantilly.</p>
+            </div>
+        </div>
+        
+
+      </div>
+
+    </div>
+    <div class="accordion-item">
+      <input type="radio" id="section2" name="accordion" />
+      <label for="section2" class="accordion-header">
+        <label class="accordion-title">Doces</label>
+        <div class="accordion-icon">
+          <svg
+            viewBox="0 0 16 16"
+            fill="none"
+            height="16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.293 5.293a1 1 0 0 1 1.414 0L8 7.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-3 3a1 1 0 0 1-1.414 0l-3-3a1 1 0 0 1 0-1.414z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </div>
+      </label>
+      <div class="content">
+        <p>As coisas vão vir aqui</p>
+      </div>
+    </div>
+    <div class="accordion-item">
+      <input type="radio" id="section3" name="accordion" />
+      <label for="section3" class="accordion-header">
+        <label class="accordion-title">Kits de Festa</label>
+        <div class="accordion-icon">
+          <svg
+            viewBox="0 0 16 16"
+            fill="none"
+            height="16"
+            width="16"
+            xmlns="http://www.w3.org/2000/svg"
+          >
+            <path
+              d="M4.293 5.293a1 1 0 0 1 1.414 0L8 7.586l2.293-2.293a1 1 0 0 1 1.414 1.414l-3 3a1 1 0 0 1-1.414 0l-3-3a1 1 0 0 1 0-1.414z"
+              fill="currentColor"
+            ></path>
+          </svg>
+        </div>
+      </label>
+      <div class="content">
+        <p>As coisas vão vir aqui</p>
+      </div>
+    </div>
+    </div>
+    
+
+  <footer class="footer">
+    &copy; 2025 Brimarques Doceria - Todos os direitos reservados.
+  </footer>
 </body>
 </html>
