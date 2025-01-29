@@ -1,0 +1,143 @@
+.accordion {
+    width: 100%;
+    max-width: 335px;
+    margin: 0 auto;
+  }
+  
+  .accordion-item {
+    margin-bottom: 5px;
+  }
+  
+  .accordion-item .content {
+    font-size: 12px;
+  }
+  
+  .accordion input[type="radio"] {
+    display: none;
+  }
+  
+  .accordion .content {
+    height: 0px;
+    padding: 0px;
+    background-color: #fafafa;
+    border-top: 1px solid #ccc;
+    overflow: hidden;
+    transition: all 0.3s ease;
+  }
+  .accordion input[type="radio"]:checked + .accordion-header + .content {
+    height: auto;
+    padding: 0;
+  }
+  .accordion-icon {
+    display: flex;
+    align-items: center;
+    transition: all 0.5s ease;
+  }
+  .accordion input[type="radio"]:checked + .accordion-header .accordion-icon {
+    transform: rotate(180deg);
+  }
+  .accordion-header {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    padding: 8px;
+    background-color: #f1f1f1;
+    cursor: pointer;
+    font-weight: bold;
+    text-align: left;
+  }
+  .accordion-header .accordion-title {
+    font-size: 14px;
+  }
+  
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #FDF3F0; 
+  color: #4B2E2A; 
+  text-align: center;
+}
+
+#title-h1 {
+  font-family: 'Alex Brush', cursive;
+  color: #4B2E2A; 
+  font-size: 32px;
+  margin: 45px 0 0;
+  font-weight: bold;
+}
+
+#title-p {
+  font-size: 16px;
+  margin: 0 0 43px;
+  font-family: 'Montserrat', sans-serif;
+  color: #7D5A50;
+}
+
+.item-div {
+  display: flex;
+  width: 335px;
+  height: 120px;
+  padding: 0;
+  margin-top: 6px;
+}
+
+.item-img-container {
+  width: 120px;         
+  height: 120px;         
+  overflow: hidden;     
+  display: flex;        
+  justify-content: center; 
+  align-items: center;    
+  border: 2px solid #ccc;  
+  border-radius: 10px;
+  margin: 0;
+  padding: 0;
+}
+
+.item-img {
+  width: 120px;
+  height: auto;
+  object-fit: cover;
+}
+
+.item-text-content {
+  width: 215px;
+  padding: 0;
+  margin: 0;
+}
+
+.item-title {
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  font-size: 20px;
+  text-align: left;
+  
+  margin: 0;
+  margin: 8px 0 0 5px;
+}
+
+.item-value {
+  font-family: "Poppins", serif;
+  font-weight: bold;
+  font-size: 14px;
+  text-align: left;
+  
+  margin: 0;
+  margin-left: 3px;
+}
+
+.item-desc {
+
+  width: 100%;
+
+  font-family: "Roboto", serif;
+  font-weight: bold;
+  font-size: 12px;
+  text-align: left;
+  
+  margin: 0;
+  margin-left: 5px;
+  margin-top: 12px;
+
+}
