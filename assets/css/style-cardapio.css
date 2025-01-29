@@ -100,6 +100,10 @@ body {
   object-fit: cover;
 }
 
+a {
+  text-decoration: none;
+}
+
 .item-text-content {
   display: flex;
   flex-direction: column;
