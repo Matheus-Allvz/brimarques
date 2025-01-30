@@ -135,19 +135,17 @@ a {
 }
 
 .item-desc {
-  color: #6C6C6C;
-
-  width: 100%;
-
   font-family: "Roboto", sans-serif;
   font-weight: bold;
+  color: #6C6C6C;
   font-size: 12px;
   text-align: left;
-  
-  
-  margin-left: 5px;
-  
 
+  max-width: fit-content;
+  max-height: fit-content;
+  overflow: hidden;
+
+  margin: 12px 5px;
 }
 
 
@@ -158,6 +156,7 @@ a {
 
 .footer {
   margin-top: 10px;
+  margin-bottom: 10px;
   height: 3vh;
 
   font-family: 'Rubik', sans-serif;

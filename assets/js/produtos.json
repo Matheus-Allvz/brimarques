@@ -1,0 +1,62 @@
+{
+  "Bolos": [
+    {
+      "nome": "Bolo de Chocolate",
+      "preco": 40.00,
+      "descricao": "Bolo fofinho de chocolate com cobertura de brigadeiro.",
+      "imagem": "assets/img/produtos/bolo-chocolate.jpg"
+    },
+    {
+      "nome": "Bolo de Cenoura",
+      "preco": 35.00,
+      "descricao": "Bolo de cenoura macio com cobertura de chocolate.",
+      "imagem": "assets/img/produtos/bolo-de-cenoura.jpg"
+    },
+    {
+      "nome": "Bolo Red Velvet",
+      "preco": 50.00,
+      "descricao": "Bolo clássico Red Velvet com recheio de cream cheese.",
+      "imagem": "assets/img/produtos/bolo-red-velvet.jpg"
+    }
+  ],
+  "Doces": [
+    {
+      "nome": "Brigadeiro",
+      "preco": 2.50,
+      "descricao": "Delicioso brigadeiro tradicional.",
+      "imagem": "assets/img/produtos/brigadeiro.jpg"
+    },
+    {
+      "nome": "Beijinho",
+      "preco": 2.50,
+      "descricao": "Beijinho de coco com açúcar cristal.",
+      "imagem": "assets/img/produtos/beijinho.jpg"
+    },
+    {
+      "nome": "Docinhos sortidos",
+      "preco": 30.00,
+      "descricao": "Caixa com 12 docinhos variados (brigadeiro, beijinho e cajuzinho).",
+      "imagem": "assets/img/produtos/doces-sortidos.jpg"
+    }
+  ],
+  "Kits de Festa": [
+    {
+      "nome": "Kit Festa Pequeno",
+      "preco": 150.00,
+      "descricao": "Bolo médio + 25 docinhos + 15 salgadinhos.",
+      "imagem": "assets/img/produtos/kit-pequeno.jpg"
+    },
+    {
+      "nome": "Kit Festa Médio",
+      "preco": 250.00,
+      "descricao": "Bolo grande + 50 docinhos + 30 salgadinhos.",
+      "imagem": "assets/img/produtos/kit-medio.jpg"
+    },
+    {
+      "nome": "Kit Festa Grande",
+      "preco": 350.00,
+      "descricao": "Bolo grande + 100 docinhos + 60 salgadinhos.",
+      "imagem": "assets/img/produtos/kit-grande.jpg"
+    }
+  ]
+}
