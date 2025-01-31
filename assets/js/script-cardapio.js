@@ -13,7 +13,7 @@ document.addEventListener("DOMContentLoaded", async () => {
       // Mapeia os produtos dentro da categoria para gerar o HTML
       const produtosHTML = produtos
         .map((produto, i) => `
-            <div class="item-div">
+            <div class="item-div" data-product='${JSON.stringify(produto)}'>
               <div class="item-img-container">
                 <img src="${produto.imagem}" alt="${produto.nome}" class="item-img">
               </div>
@@ -49,7 +49,52 @@ document.addEventListener("DOMContentLoaded", async () => {
       container.innerHTML += sectionHTML;
     });
 
+    // Adiciona evento de clique para abrir o modal
+    const productDivs = document.querySelectorAll(".item-div");
+    const modal = document.getElementById("modal");
+    const modalImage = document.getElementById("modal-image");
+    const modalTitle = document.getElementById("modal-title");
+    const modalDescription = document.getElementById("modal-description");
+    const modalPrice = document.getElementById("modal-price");
+    const modalWhatsAppButton = document.getElementById("whatssapp-button");
+    const whatsappLink = document.getElementById("whatsapp-link");
+
+    productDivs.forEach((div) => {
+      div.addEventListener("click", () => {
+        const product = JSON.parse(div.getAttribute("data-product"));
+
+        // Preenche o modal com os dados do produto
+        modalImage.src = product.imagem;
+        modalTitle.textContent = product.nome;
+        modalDescription.textContent = product.descricao;
+        modalPrice.textContent = `R$ ${product.preco.toFixed(2)}`;
+        modalWhatsAppButton.innerHTML = `
+        <img src="./assets/img/img-whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
+        Fale sobre o ${(product.nome.toLowerCase())} agora!
+        `;
+
+        
+
+        // Configuração do link do WhatsApp
+        const message = `Olá, gostaria de saber mais sobre o produto: ${product.nome} - ${product.descricao}.`;
+        whatsappLink.href = `https://wa.me/SEU_NUMERO_AQUI?text=${encodeURIComponent(message)}`;
+
+        modal.style.display = "block";
+      });
+    });
+
+    // Fechar o modal caso clique no botão ou fora dele
+    document.querySelector(".close-modal").addEventListener("click", () => {
+      modal.style.display = "none";
+    });
+
+    window.addEventListener("click", (event) => {
+      if (event.target === modal) {
+        modal.style.display = "none";
+      }
+    });
+
   } catch (error) {
     console.error("Erro ao carregar produtos:", error);
   }
-});
+}); 
