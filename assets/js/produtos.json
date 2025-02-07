@@ -4,38 +4,44 @@
       "nome": "Bolo de Chocolate",
       "preco": 40.00,
       "descricao": "Bolo fofinho de chocolate com cobertura de brigadeiro.",
+      "descricao_detalhada": "**Nosso bolo de chocolate pode ser personalizado!**\n\n**Opções de massa:**\n- Branca\n- Mesclada\n- 70% Cacau\n\n**Recheios disponíveis:**\n- Brigadeiro\n- Doce de leite\n- Creme de avelã\n\n**Cobertura:**\n- Brigadeiro tradicional\n- Ganache (ao leite, meio amargo ou branco)\n\n_Finalize com granulado, raspas de chocolate ou frutas frescas!_",
       "imagem": "assets/img/produtos/bolo-chocolate.jpg"
     },
     {
       "nome": "Bolo de Cenoura",
       "preco": 35.00,
       "descricao": "Bolo de cenoura macio com cobertura de chocolate.",
+      "descricao_detalhada": "**Ingredientes selecionados para um sabor irresistível!**\n\n**Opções de cobertura:**\n- Chocolate tradicional\n- Ganache meio amargo\n- Ganache ao leite\n\n**Opções de recheio:**\n- Brigadeiro\n- Creme de ninho\n- Doce de leite\n\n*Personalize com raspas de chocolate ou confeitos!*",
       "imagem": "assets/img/produtos/bolo-de-cenoura.jpg"
     },
     {
       "nome": "Bolo Red Velvet",
       "preco": 50.00,
       "descricao": "Bolo clássico Red Velvet com recheio de cream cheese.",
+      "descricao_detalhada": "**Feito com cacau de qualidade e extrato natural de baunilha.**\n\n**Recheios disponíveis:**\n- Cream cheese tradicional\n- Brigadeiro branco\n- Creme de leite ninho\n\n**Coberturas:**\n- Buttercream\n- Chantilly\n\n*Pode ser decorado com frutas vermelhas ou chocolate branco!*",
       "imagem": "assets/img/produtos/bolo-red-velvet.jpg"
     }
   ],
   "Doces": [
     {
       "nome": "Brigadeiro",
-      "preco": 2.50,
+      "preco": 0,
       "descricao": "Delicioso brigadeiro tradicional.",
+      "descricao_detalhada": "**Feito com leite condensado, chocolate belga e finalizado com granulado premium.**\n\n**Opções de tamanho:**\n- Pequeno: R$ 2,50\n- Médio: R$ 4,50\n- Grande: R$ 7,00\n\n**Versões disponíveis:**\n- Meio amargo\n- Ao leite\n- Branco\n\n_Opção sem açúcar e vegana sob encomenda._",
       "imagem": "assets/img/produtos/brigadeiro.jpg"
     },
     {
       "nome": "Beijinho",
-      "preco": 2.50,
+      "preco": 0,
       "descricao": "Beijinho de coco com açúcar cristal.",
+      "descricao_detalhada": "**Delicioso beijinho feito com leite condensado e coco ralado fresco!**\n\n**Coberturas:**\n- Açúcar cristal\n- Coco queimado\n\n**Recheios extras:**\n- Creme de leite ninho\n- Doce de leite\n\n*Uma explosão de sabor em cada mordida!*",
       "imagem": "assets/img/produtos/beijinho.jpg"
     },
     {
       "nome": "Docinhos sortidos",
       "preco": 30.00,
       "descricao": "Caixa com 12 docinhos variados (brigadeiro, beijinho e cajuzinho).",
+      "descricao_detalhada": "**Uma seleção especial de docinhos para adoçar seu dia!**\n\n**A caixa inclui:**\n- Brigadeiro\n- Beijinho\n- Cajuzinho\n\n*Personalize sua caixa com brigadeiro branco, bicho de pé e casadinho!*\n\n_Embalagens personalizadas disponíveis para festas._",
       "imagem": "assets/img/produtos/doces-sortidos.jpg"
     }
   ],
@@ -44,18 +50,21 @@
       "nome": "Kit Festa Pequeno",
       "preco": 150.00,
       "descricao": "Bolo médio + 25 docinhos + 15 salgadinhos.",
+      "descricao_detalhada": "**Ideal para pequenas celebrações!**\n\n**O kit contém:**\n- 🎂 1 bolo médio (sabores à escolha)\n- 🍬 25 docinhos (brigadeiro, beijinho e bicho de pé)\n- 🥟 15 salgadinhos sortidos (coxinha, risole e empada)\n\n*Opção de troca de sabores sob encomenda!*",
       "imagem": "assets/img/produtos/kit-pequeno.jpg"
     },
     {
       "nome": "Kit Festa Médio",
       "preco": 250.00,
       "descricao": "Bolo grande + 50 docinhos + 30 salgadinhos.",
+      "descricao_detalhada": "**Perfeito para reuniões e aniversários!**\n\n**O kit inclui:**\n- 🎂 1 bolo grande (sabores personalizados)\n- 🍬 50 docinhos variados\n- 🥟 30 salgadinhos sortidos\n\n*Opção de embalagem especial e tag personalizada disponível!*",
       "imagem": "assets/img/produtos/kit-medio.jpg"
     },
     {
       "nome": "Kit Festa Grande",
       "preco": 350.00,
       "descricao": "Bolo grande + 100 docinhos + 60 salgadinhos.",
+      "descricao_detalhada": "**Ideal para festas maiores!**\n\n**O kit contém:**\n- 🎂 1 bolo grande (massa, recheio e cobertura à sua escolha)\n- 🍬 100 docinhos variados\n- 🥟 60 salgadinhos sortidos\n\n*Pode incluir doces especiais e decoração personalizada sob pedido!*",
       "imagem": "assets/img/produtos/kit-grande.jpg"
     }
   ]

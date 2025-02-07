@@ -17,9 +17,9 @@ document.addEventListener("DOMContentLoaded", async () => {
               <div class="item-img-container">
                 <img src="${produto.imagem}" alt="${produto.nome}" class="item-img">
               </div>
-              <div class="item-text-content">
+              <div class="item-text-content"> 
                 <h5 class="item-title">${produto.nome}</h5>
-                <p class="item-value">R$ ${produto.preco.toFixed(2)}</p>
+                <p class="item-value">${produto.preco > 0 ? `R$ ${produto.preco.toFixed(2)}` : "Clique para ver opções"}</p>
                 <p class="item-desc">${produto.descricao}</p>
               </div>
             </div>
@@ -40,6 +40,8 @@ document.addEventListener("DOMContentLoaded", async () => {
             </div>
           </label>
           <div class="content">
+          <p>Clique em um item para ver as opções</p>
+          <hr>
             ${produtosHTML}
           </div>
         </div>
@@ -66,8 +68,8 @@ document.addEventListener("DOMContentLoaded", async () => {
         // Preenche o modal com os dados do produto
         modalImage.src = product.imagem;
         modalTitle.textContent = product.nome;
-        modalDescription.textContent = product.descricao;
-        modalPrice.textContent = `R$ ${product.preco.toFixed(2)}`;
+        modalDescription.innerHTML = marked.parse(product.descricao_detalhada);
+        if(product.preco) modalPrice.textContent = `R$ ${product.preco.toFixed(2)}`;
         modalWhatsAppButton.innerHTML = `
         <img src="./assets/img/img-whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
         Fale sobre o ${(product.nome.toLowerCase())} agora!

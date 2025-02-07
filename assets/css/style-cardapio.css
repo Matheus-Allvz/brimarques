@@ -83,6 +83,7 @@ body {
   height: 120px;
   padding: 0;
   margin: 6px 0;
+  cursor: pointer;
 }
 
 .item-img-container {
@@ -160,15 +161,15 @@ a {
   z-index: 1000;
   left: 0;
   top: 0;
-  width: 98%;
-  height: 98%;
+  width: 100%;
+  height: 100%;
   overflow: auto;
   background-color: rgba(0, 0, 0, 0.5); 
 }
 
 .modal-content {
   background-color: #fff;
-  margin: 10% auto;
+  margin: 14px auto;
   padding: 20px;
   border-radius: 10px;
   width: 90%;
@@ -176,6 +177,16 @@ a {
   text-align: center;
   justify-content: center;
   position: relative;
+}
+
+.modal-content ul, 
+.modal-content ol {
+    text-align: left; 
+    padding-left: 20px;
+}
+
+.modal-content li {
+    text-align: left; 
 }
 
 .close-modal {
@@ -202,10 +213,16 @@ a {
 }
 
 .modal-content p {
+  text-align: center;
   font-family: "Roboto", sans-serif;
   color: #6C6C6C;
   font-size: 16px;
-  margin: 5px 0;
+  margin: 12px 0;
+}
+
+#modal-price {
+  font-weight: bold;
+  color: hsl(120, 100%, 42%);
 }
 
 .whatsapp-link {
