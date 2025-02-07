@@ -69,7 +69,7 @@ document.addEventListener("DOMContentLoaded", async () => {
         modalImage.src = product.imagem;
         modalTitle.textContent = product.nome;
         modalDescription.innerHTML = marked.parse(product.descricao_detalhada);
-        if(product.preco) modalPrice.textContent = `R$ ${product.preco.toFixed(2)}`;
+        product.preco > 0 ? modalPrice.textContent = `R$ ${product.preco.toFixed(2)}` : modalPrice.textContent = `` ;
         modalWhatsAppButton.innerHTML = `
         <img src="./assets/img/img-whatsapp.png" alt="WhatsApp" class="whatsapp-icon">
         Fale sobre o ${(product.nome.toLowerCase())} agora!
