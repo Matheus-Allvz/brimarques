@@ -43,6 +43,13 @@
       "descricao": "Caixa com 12 docinhos variados (brigadeiro, beijinho e cajuzinho).",
       "descricao_detalhada": "**Uma seleção especial de docinhos para adoçar seu dia!**\n\n**A caixa inclui:**\n- Brigadeiro\n- Beijinho\n- Cajuzinho\n\n*Personalize sua caixa com brigadeiro branco, bicho de pé e casadinho!*\n\n_Embalagens personalizadas disponíveis para festas._",
       "imagem": "assets/img/produtos/doces-sortidos.jpg"
+    },
+    {
+      "nome": "Cookies da Nicoly",
+      "preco": 1.0e+32,
+      "descricao": "Cookies fofinhos e carinhosos, feitos com muito amor!",
+      "descricao_detalhada": "**Perfeitos para aquecer o coração!**\n\n**Ingredientes selecionados:**\n- Muito carinho\n- 2 kilos de beijinhos fofos\n- Pedaços generosos carinho\n\n**Opções disponíveis:**\n- Clássico com gotas de chocolate\n- Turbinado com mil beijinhos\n- Branco com pedacinhos de felicidade\n\n_Acompanha um sorriso garantido a cada mordida!_",
+      "imagem": "assets/img/produtos/cookies.jpg"
     }
   ],
   "Kits de Festa": [
